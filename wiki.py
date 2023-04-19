@@ -20,7 +20,15 @@ response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html5lib')
 
 title = soup.find('h1', id='firstHeading').text
-first_paragraph = soup.find('div', class_='mw-parser-output').p.text
 
-print(title)
-print(first_paragraph)
+# Check if the first paragraph exists
+first_paragraph_elem = soup.find('div', class_='mw-parser-output').id
+if first_paragraph_elem:
+    first_paragraph = first_paragraph_elem.text
+else:
+    first_paragraph = 'No text found.'
+
+print(response.content)
+
+# print(title)
+# print(first_paragraph)
