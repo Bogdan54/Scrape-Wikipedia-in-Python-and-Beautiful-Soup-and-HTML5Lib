@@ -7,8 +7,7 @@ Install the necessary libraries: Install beautifulsoup4 and html5lib using pip.
 
 ## General command to run the script
 
-To use this app, save it to a file called wiki.py and run it from the command line with the --url or --search argument:
+To use this app you have a cli.py script that calls wiki.py (the wikipedia parser) and makes it into a more digestible little program
 
-> python wiki.py --url https://en.wikipedia.org/wiki/Python_(programming_language)
+> python cli.py
 
-> python wiki.py --search Python_(programming_language)
