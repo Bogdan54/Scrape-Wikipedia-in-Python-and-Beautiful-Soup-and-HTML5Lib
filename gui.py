@@ -1,29 +1,58 @@
-import tkinter as tk
-import subprocess
+import os
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton
+from subprocess import Popen
 
-root = tk.Tk()
-root.title("Wiki Search")
+class WikiGUI(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
 
-url_label = tk.Label(root, text="URL:")
-url_label.grid(row=0, column=0, padx=5, pady=5)
+    def initUI(self):
+        self.setWindowTitle('Wikipedia Search')
+        self.setGeometry(100, 100, 400, 200)
 
-url_entry = tk.Entry(root)
-url_entry.grid(row=0, column=1, padx=5, pady=5)
+        # Create search label and input field
+        self.search_label = QLabel(self)
+        self.search_label.setText('Enter search term:')
+        self.search_label.move(20, 20)
+        self.search_input = QLineEdit(self)
+        self.search_input.move(150, 20)
+        self.search_input.resize(200, 20)
 
-search_label = tk.Label(root, text="Search:")
-search_label.grid(row=1, column=0, padx=5, pady=5)
+        # Create URL label and input field
+        self.url_label = QLabel(self)
+        self.url_label.setText('Enter Wikipedia URL:')
+        self.url_label.move(20, 60)
+        self.url_input = QLineEdit(self)
+        self.url_input.move(150, 60)
+        self.url_input.resize(200, 20)
 
-search_entry = tk.Entry(root)
-search_entry.grid(row=1, column=1, padx=5, pady=5)
+        # Create search button
+        self.search_button = QPushButton('Search', self)
+        self.search_button.move(150, 100)
+        self.search_button.clicked.connect(self.run_wiki_script)
 
-def search_wiki():
-    url = url_entry.get()
-    search = search_entry.get()
+    def run_wiki_script(self):
+        search_term = self.search_input.text()
+        url = self.url_input.text()
 
-    command = f"python wiki.py --url {url} --search '{search}'"
-    subprocess.call(command, shell=True)
+        if search_term:
+            cmd = ['python', 'wiki.py', '--search', search_term]
+        elif url:
+            cmd = ['python', 'wiki.py', '--url', url]
+        else:
+            return
 
-search_button = tk.Button(root, text="Search", command=search_wiki)
-search_button.grid(row=2, column=1, padx=5, pady=5)
+        with open('output.txt', 'w') as f:
+            process = Popen(cmd, stdout=f, stderr=f)
+            process.wait()
 
-root.mainloop()
+        # Open the output file in a new window
+        os.startfile('output.txt')
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = WikiGUI()
+    ex.show()
+    sys.exit(app.exec_())
