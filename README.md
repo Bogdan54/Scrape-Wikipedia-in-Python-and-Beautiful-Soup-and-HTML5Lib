@@ -5,7 +5,6 @@ Uni-Project is a Python project that allows users to search for Wikipedia pages 
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Features](#Features)
-- [Reporting issues or bugs](#Reporting issues or bugs)
 - [Authors](#Authors)
 - [Acknowledgments](#Acknowledgments)
 - [Example](#Example)
@@ -50,11 +49,6 @@ Uni-Project provides the following features:
 * Contributing
 * Contributions to Uni-Project are welcome! You can contribute by:
 
-## Reporting issues or bugs
-
-Submitting feature requests
-Forking the repository and submitting pull requests with your changes
-
 ## Authors
 Uni-Project was created by Bogdan & Bogdan.
 
@@ -71,3 +65,8 @@ The output will be:
 > Python (programming language) - Wikipedia
 >
 > Python is an interpreted, high-level, general-purpose programming language. Created by Guido va
+
+## Reporting issues or bugs
+
+Submitting feature requests
+Forking the repository and submitting pull requests with your changes
