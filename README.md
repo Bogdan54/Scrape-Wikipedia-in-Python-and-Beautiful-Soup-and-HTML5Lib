@@ -23,7 +23,7 @@ To use the graphical user interface, run the gui.py script:
 > python gui.py
 The GUI will open and allow you to search and parse Wikipedia pages.
 
-## You can also use the --url or --search command-line arguments to specify the page to search:
+You can also use the --url or --search command-line arguments to specify the page to search:
 
 > python gui.py --url https://en.wikipedia.org/wiki/Python_(programming_language)
 
@@ -59,5 +59,6 @@ Here is an example of how to use Uni-Project to search for the Wikipedia page fo
 
 The output will be:
 
-### Python (programming language) - Wikipedia
-### Python is an interpreted, high-level, general-purpose programming language. Created by Guido va
+> Python (programming language) - Wikipedia
+>
+> Python is an interpreted, high-level, general-purpose programming language. Created by Guido va
