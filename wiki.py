@@ -33,4 +33,4 @@ text = html2text.html2text(response.text)
 
 print(title)
 print(first_paragraph.encode('utf-8'))
-# print(text)
+print(text.encode('utf-8'))
