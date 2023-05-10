@@ -38,7 +38,7 @@ class WikiGUI(QWidget):
         url = self.url_input.text()
 
         if search_term:
-            cmd = ['python', 'wiki.py', '--search', search_term]
+            cmd = ['python ', 'wiki.py ', '--search', search_term]
         elif url:
             cmd = ['python', 'wiki.py', '--url', url]
         else:

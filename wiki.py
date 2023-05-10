@@ -22,9 +22,9 @@ soup = BeautifulSoup(response.content, 'html5lib')
 title = soup.find('h1', id='firstHeading').text
 
 # Check if the first paragraph exists
-first_paragraph_elem = soup.find('div', class_='mw-parser-output').id
+first_paragraph_elem = soup.find('div', class_='mw-parser-output')
 if first_paragraph_elem:
-    first_paragraph = first_paragraph_elem.text
+    first_paragraph = first_paragraph_elem.find('p').text
 else:
     first_paragraph = 'No text found.'
 
@@ -32,5 +32,5 @@ else:
 text = html2text.html2text(response.text)
 
 print(title)
-print(first_paragraph)
-print(text)
+print(first_paragraph.encode('utf-8'))
+# print(text)
