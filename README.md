@@ -2,12 +2,13 @@
 Uni-Project is a Python project that allows users to search for Wikipedia pages and retrieve the title and first paragraph of a page.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Features](#Features)
+- [Reporting issues or bugs](#Reporting issues or bugs)
+- [Authors](#Authors)
+- [Acknowledgments](#Acknowledgments)
+- [Example](#Example)
 
 ## Installation
 To install Uni-Project, you can clone the GitHub repository:
