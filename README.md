@@ -50,7 +50,7 @@ Uni-Project provides the following features:
 * Contributions to Uni-Project are welcome! You can contribute by:
 
 ## Authors
-Uni-Project was created by Bogdan & Bogdan.
+Uni-Project was created by [Bogdan](https://github.com/bodab9) & [Bogdan](https://github.com/bogdan54).
 
 ## Acknowledgments
 Thanks to the developers of argparse, requests, BeautifulSoup, and html2text for their contributions to this project.
