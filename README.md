@@ -1,4 +1,4 @@
-# Uni-Project
+# Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib
 Uni-Project is a Python project that allows users to search for Wikipedia pages and retrieve the title and first paragraph of a page.
 
 ## Table of Contents
