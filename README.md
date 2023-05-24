@@ -66,6 +66,9 @@ The output will be in a form of a window where you can choose how you want to wo
 
 There you will input either a link or a search term and when you search it will open it in a notepad called output.txt.
 
+## License
+This project is licensed under the GPLv3 License.
+
 ## Reporting issues or bugs
 
 Submitting feature requests
