@@ -18,7 +18,7 @@ Provides a command-line interface for easy interaction.
 
 3. Install the required dependencies:
 
-> pip install -r requirements.txt
+> pip install html5lib requests beautifulsoup4
 
 ## Usage
 
