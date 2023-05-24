@@ -61,7 +61,10 @@ Here is an example of how to use Scrape Wikipedia in Python and Beautiful Soup a
 > python gui.py
 
 The output will be in a form of a window where you can choose how you want to work with.
+
 <img src="Screenshots/gui.py.png" alt="alt text" title="GUI" />
+
+There you will input either a link or a search term and when you search it will open it in a notepad called output.txt.
 
 ## Reporting issues or bugs
 
