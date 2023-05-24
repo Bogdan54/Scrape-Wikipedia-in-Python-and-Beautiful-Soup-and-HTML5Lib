@@ -1,4 +1,4 @@
-# PL3 Project
+# Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib
 
 ## First run
 Install the necessary libraries: Install beautifulsoup4 and html5lib using pip.
