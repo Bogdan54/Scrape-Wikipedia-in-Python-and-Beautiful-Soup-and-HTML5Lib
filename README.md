@@ -26,7 +26,7 @@ Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project requires the 
 * html2text
 You can install them using pip:
 
-> pip install argparse requests beautifulsoup4 html2text
+> pip install argparse requests beautifulsoup4 html2text PyQt5
 
 ## Usage
 To use the graphical user interface, run the gui.py script:
