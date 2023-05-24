@@ -11,11 +11,12 @@ Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project is a Python p
 
 ## Installation
 To install Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project, you can clone the GitHub repository:
-> git clone https://github.com/Bogdan54/Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project.git
+> git clone https://github.com/Bogdan54/
+Scrape-Wikipedia-in-Python-and-Beautiful-Soup-and-HTML5Lib.git
 
 Then, navigate to the Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project directory:
 
-> cd Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project
+> cd Scrape-Wikipedia-in-Python-and-Beautiful-Soup-and-HTML5Lib 
 
 Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project requires the following dependencies:
 
