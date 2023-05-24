@@ -1,5 +1,5 @@
-# Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib
-Uni-Project is a Python project that allows users to search for Wikipedia pages and retrieve the title and first paragraph of a page.
+# Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project
+Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project is a Python project that allows users to search for Wikipedia pages and retrieve the title and first paragraph of a page.
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -10,12 +10,12 @@ Uni-Project is a Python project that allows users to search for Wikipedia pages 
 - [Example](#Example)
 
 ## Installation
-To install Uni-Project, you can clone the GitHub repository:
-> git clone https://github.com/Bogdan54/Uni-Project.git
+To install Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project, you can clone the GitHub repository:
+> git clone https://github.com/Bogdan54/Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project.git
 
-Then, navigate to the Uni-Project directory:
-> cd Uni-Project
-Uni-Project requires the following dependencies:
+Then, navigate to the Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project directory:
+> cd Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project
+Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project requires the following dependencies:
 
 * argparse
 * requests
@@ -41,30 +41,27 @@ or
 The output will be displayed in the GUI.
 
 ## Features
-Uni-Project provides the following features:
+Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project provides the following features:
 
 * Ability to search for Wikipedia pages by title or URL
 * Retrieval of the title and first paragraph of a Wikipedia page
 * HTML syntax removal using html2text
 * Contributing
-* Contributions to Uni-Project are welcome! You can contribute by:
+* Contributions to Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project are welcome! You can contribute by:
 
 ## Authors
-Uni-Project was created by [Bogdan](https://github.com/bodab9) & [Bogdan](https://github.com/bogdan54).
+Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project was created by [Bogdan](https://github.com/bodab9) & [Bogdan](https://github.com/bogdan54).
 
 ## Acknowledgments
 Thanks to the developers of argparse, requests, BeautifulSoup, and html2text for their contributions to this project.
 
 ## Example
-Here is an example of how to use Uni-Project to search for the Wikipedia page for Python (programming language):
+Here is an example of how to use Scrape Wikipedia in Python and Beautiful Soup and HTML5Lib Project to search for the Wikipedia page for Python (programming language):
 
-> python gui.py --search "Python (programming language)"
+> python gui.py
 
-The output will be:
-
-> Python (programming language) - Wikipedia
->
-> Python is an interpreted, high-level, general-purpose programming language. Created by Guido va
+The output will be in a form of a window where you can choose how you want to work with.
+<img src="Screenshots/" alt="alt text" title="GUI" />
 
 ## Reporting issues or bugs
 
