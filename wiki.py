@@ -24,7 +24,11 @@ title = soup.find('h1', id='firstHeading').text
 # Check if the first paragraph exists
 first_paragraph_elem = soup.find('div', class_='mw-parser-output')
 if first_paragraph_elem:
-    first_paragraph = first_paragraph_elem.find('p').text
+    first_paragraph = first_paragraph_elem.find('p')
+    if first_paragraph:
+        first_paragraph = first_paragraph.text
+    else:
+        first_paragraph = 'No paragraph found.'
 else:
     first_paragraph = 'No text found.'
 
